@@ -11,8 +11,5 @@
     "grunt-contrib-watch": "^1.0.0",
     "mocha": "^3.4.2",
     "should": "^11.2.1"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
