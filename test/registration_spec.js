@@ -15,7 +15,7 @@ describe('Registration', function () {
         before(function (done) {
             db.users.destroyAll(function (err, result) {
                 reg.applyForMembership({
-                    email: 'iramellor@outlook.com',
+                    email: 'test@test.com',
                     password: 'password1',
                     confirmPassword: 'password1'
                 }, function (err, result) {
