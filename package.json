@@ -4,7 +4,10 @@
   "description": "A membership system.",
   "version": "0.0.1",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "secondthought": "*"
+  },
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-contrib-jshint": "^1.1.0",

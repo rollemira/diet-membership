@@ -1,12 +1,14 @@
-var Application = function(args) {
+var Application = function (args) {
     var app = {};
     app.email = args.email;
     app.password = args.password;
     app.confirmPassword = args.confirmPassword;
     app.status = 'pending';
     app.message = null;
+    app.user = null;
+    app.log = null;
 
-    app.isValid = function() {
+    app.isValid = function () {
         return app.status === 'validated';
     };
     app.isInvalid = function () {

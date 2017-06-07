@@ -6,7 +6,7 @@ describe('User', function () {
     describe('defaults', function () {
         var user = {};
 
-        before(function(){
+        before(function () {
             user = new User({email: "iramellor@outlook.com"});
         });
 
