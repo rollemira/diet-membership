@@ -12,7 +12,7 @@ var User = function (args) {
     user.lastLoginAt = args.lastLoginAt || new Date();
     user.currentLoginAt = args.currentLoginAt || new Date();
     user.authenticationToken = args.authenticationToken || utility.randomString(18);
-    user.hashedPassword = args.hashedPassword;
+    user.hashedPassword = args.hashedPassword || null;
 
     return user;
 };
